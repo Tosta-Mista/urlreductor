@@ -1,1 +1,28 @@
 {% extends base.html %}
+{% block title %}- Generated URL List{% endblock %}
+
+{% block header%}URL Factory{% endblock %}
+	{% block content %}URL Factory - Listing{% endblock %}
+
+	{% block breadcrumb %}
+		<ol class="breadcrumb">
+			<li><a href="/">Home</a></li>
+			<li class="active">URL List</a></li>
+		</ol>
+	{% endblock %}
+
+	{% block MainContent %}
+		<div class="col-12 col-sm-12 col-lg-12">
+			<h1>URL List</h1>
+	{% endblock %}
+
+			{% block sidelinks %}
+				<a href="#" class="list-group-item active">What do you need ?</a>
+				<a href="#" class="list-group-item">Add a new URL</a>
+				<a href="/admin" class="list-group-item">Admin</a>
+			{%endblock%}
+
+
+{% block footer %}
+	<p class="muted credit">URL Factory - Made with pride and love by <a href="http://www.dlcproduction.ch">José Gonçalves</a></p>
+{% endblock %}
