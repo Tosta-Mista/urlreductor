@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/admin.py" afterPath="$PROJECT_DIR$/mini_url/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/views.py" afterPath="$PROJECT_DIR$/mini_url/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -58,11 +58,13 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mini_url/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="28" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-              <folding />
+            <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
+              <folding>
+                <element signature="e#24#69#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -107,10 +109,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="6" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.18914185" vertical-offset="0" max-vertical-offset="571">
+            <state line="6" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -141,10 +143,10 @@
         <option value="$PROJECT_DIR$/mini_url/forms.py" />
         <option value="$PROJECT_DIR$/urlreductor/urls.py" />
         <option value="$PROJECT_DIR$/mini_url/urls.py" />
-        <option value="$PROJECT_DIR$/mini_url/views.py" />
         <option value="$PROJECT_DIR$/templates/mini_url/base.html" />
         <option value="$PROJECT_DIR$/templates/mini_url/list.html" />
         <option value="$PROJECT_DIR$/mini_url/admin.py" />
+        <option value="$PROJECT_DIR$/mini_url/views.py" />
       </list>
     </option>
   </component>
@@ -541,7 +543,11 @@
       <created>1387053738620</created>
       <updated>1387053738621</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Fix: an error during the runervers launch">
+      <created>1387053829701</created>
+      <updated>1387053829701</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -584,7 +590,8 @@
     <MESSAGE value="Add: Bootstrap3 CSS on view." />
     <MESSAGE value="Add: new template for the listing." />
     <MESSAGE value="Fix: an error when i call the model.ModelAdmin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: an error when i call the model.ModelAdmin" />
+    <MESSAGE value="Fix: an error during the runervers launch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix: an error during the runervers launch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -607,7 +614,9 @@
     <entry file="file://$PROJECT_DIR$/mini_url/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <folding />
+          <folding>
+            <element signature="e#24#69#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -652,13 +661,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mini_url/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="28" selection-start="204" selection-end="204" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mini_url/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="33" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-29.333334" vertical-offset="0" max-vertical-offset="2214">
@@ -689,9 +691,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.18914185" vertical-offset="0" max-vertical-offset="571">
+        <state line="6" column="28" selection-start="201" selection-end="201" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_url/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
+          <folding>
+            <element signature="e#24#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
