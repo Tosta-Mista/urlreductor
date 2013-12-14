@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/admin.py" afterPath="$PROJECT_DIR$/mini_url/admin.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mini_url/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlreductor/urls.py" afterPath="$PROJECT_DIR$/urlreductor/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -43,7 +44,16 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="216" max-vertical-offset="324">
+            <state line="6" column="51" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="72" selection-start="274" selection-end="274" vertical-scroll-proportion="0.19090909" vertical-offset="0" max-vertical-offset="660">
               <folding />
             </state>
           </provider>
@@ -72,18 +82,21 @@
           <provider selected="true" editor-type-id="text-editor">
             <state line="8" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
               <folding>
-                <element signature="e#24#48#0" expanded="true" />
+                <marker date="1387051522526" expanded="true" signature="24:73" placeholder="import ..." />
+                <marker date="1387051522526" expanded="true" signature="104:179" placeholder="..." />
+                <marker date="1387051522526" expanded="true" signature="120:179" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="660">
+            <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
+                <marker date="1387051678510" expanded="true" signature="91:282" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -111,6 +124,8 @@
         <option value="$PROJECT_DIR$/urlreductor/settings.py" />
         <option value="$PROJECT_DIR$/mini_url/forms.py" />
         <option value="$PROJECT_DIR$/mini_url/admin.py" />
+        <option value="$PROJECT_DIR$/urlreductor/urls.py" />
+        <option value="$PROJECT_DIR$/mini_url/urls.py" />
       </list>
     </option>
   </component>
@@ -451,7 +466,11 @@
       <created>1387051570796</created>
       <updated>1387051570796</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add : admin management and set some option.">
+      <created>1387051770999</created>
+      <updated>1387051770999</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -489,7 +508,8 @@
     <MESSAGE value="Add : new model." />
     <MESSAGE value="Add; -*- coding : utf-8 -*- and create a new forms.py into my app." />
     <MESSAGE value="Add: forms by inerith the model class." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: forms by inerith the model class." />
+    <MESSAGE value="Add : admin management and set some option." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add : admin management and set some option." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -528,6 +548,7 @@
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+            <marker date="1387051678510" expanded="true" signature="91:282" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -535,13 +556,6 @@
     <entry file="file://$PROJECT_DIR$/mini_url/views.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="0" selection-start="302" selection-end="302" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <folding />
         </state>
       </provider>
@@ -557,7 +571,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="8" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
           <folding>
-            <element signature="e#24#48#0" expanded="true" />
+            <marker date="1387051522526" expanded="true" signature="24:73" placeholder="import ..." />
+            <marker date="1387051522526" expanded="true" signature="104:179" placeholder="..." />
+            <marker date="1387051522526" expanded="true" signature="120:179" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -571,10 +587,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="660">
+        <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
+            <marker date="1387051678510" expanded="true" signature="91:282" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="51" selection-start="186" selection-end="186" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="72" selection-start="274" selection-end="274" vertical-scroll-proportion="0.19090909" vertical-offset="0" max-vertical-offset="660">
+          <folding />
         </state>
       </provider>
     </entry>
