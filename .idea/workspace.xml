@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/admin.py" afterPath="$PROJECT_DIR$/mini_url/admin.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/forms.py" afterPath="$PROJECT_DIR$/mini_url/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -82,7 +81,7 @@
       <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="5" column="75" selection-start="167" selection-end="167" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
+            <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="660">
               <folding>
                 <element signature="e#0#32#0" expanded="true" />
               </folding>
@@ -448,7 +447,11 @@
       <created>1387051020110</created>
       <updated>1387051020110</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Add: forms by inerith the model class.">
+      <created>1387051570796</created>
+      <updated>1387051570796</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -485,7 +488,8 @@
     </option>
     <MESSAGE value="Add : new model." />
     <MESSAGE value="Add; -*- coding : utf-8 -*- and create a new forms.py into my app." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add; -*- coding : utf-8 -*- and create a new forms.py into my app." />
+    <MESSAGE value="Add: forms by inerith the model class." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: forms by inerith the model class." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -567,7 +571,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="75" selection-start="167" selection-end="167" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
+        <state line="12" column="38" selection-start="323" selection-end="323" vertical-scroll-proportion="0.3272727" vertical-offset="0" max-vertical-offset="660">
           <folding>
             <element signature="e#0#32#0" expanded="true" />
           </folding>
