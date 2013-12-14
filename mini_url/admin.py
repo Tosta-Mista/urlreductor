@@ -1,3 +1,6 @@
 from django.contrib import admin
+from models import myURL
 
-# Register your models here.
+
+class myURLAdmin(admin.Admins):
+    list_display = ('url', 'username', 'date', 'secret', 'accessNb', 'date')

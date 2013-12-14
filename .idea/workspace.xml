@@ -1,10 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="Add : new model.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/mini_url/forms.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/models.py" afterPath="$PROJECT_DIR$/mini_url/models.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlreductor/settings.py" afterPath="$PROJECT_DIR$/urlreductor/settings.py" />
+    <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/admin.py" afterPath="$PROJECT_DIR$/mini_url/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/forms.py" afterPath="$PROJECT_DIR$/mini_url/forms.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -33,10 +32,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="settings.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+            <state line="69" column="18" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1620">
               <folding />
             </state>
           </provider>
@@ -72,17 +71,21 @@
       <file leaf-file-name="forms.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/forms.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="18" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-              <folding />
+            <state line="8" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+              <folding>
+                <element signature="e#24#48#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="admin.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="admin.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-              <folding />
+            <state line="5" column="75" selection-start="167" selection-end="167" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
+              <folding>
+                <element signature="e#0#32#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -105,9 +108,10 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/mini_url/forms.py" />
         <option value="$PROJECT_DIR$/mini_url/models.py" />
         <option value="$PROJECT_DIR$/urlreductor/settings.py" />
+        <option value="$PROJECT_DIR$/mini_url/forms.py" />
+        <option value="$PROJECT_DIR$/mini_url/admin.py" />
       </list>
     </option>
   </component>
@@ -440,13 +444,18 @@
       <created>1387050410889</created>
       <updated>1387050410889</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Add; -*- coding : utf-8 -*- and create a new forms.py into my app.">
+      <created>1387051020110</created>
+      <updated>1387051020110</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="3" width="1910" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2301676" sideWeight="0.6634409" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -457,12 +466,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2301676" sideWeight="0.33655915" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21787709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -476,7 +484,8 @@
       <TodoPanelSettings />
     </option>
     <MESSAGE value="Add : new model." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add : new model." />
+    <MESSAGE value="Add; -*- coding : utf-8 -*- and create a new forms.py into my app." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add; -*- coding : utf-8 -*- and create a new forms.py into my app." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -513,18 +522,13 @@
     <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="162">
-          <folding />
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="866">
           <folding />
@@ -538,10 +542,19 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="18" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1620">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/forms.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="18" selection-start="42" selection-end="42" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="144">
-          <folding />
+        <state line="8" column="34" selection-start="177" selection-end="177" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding>
+            <element signature="e#24#48#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -552,10 +565,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
+    <entry file="file://$PROJECT_DIR$/mini_url/admin.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="23" selection-start="23" selection-end="23" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
-          <folding />
+        <state line="5" column="75" selection-start="167" selection-end="167" vertical-scroll-proportion="0.13636364" vertical-offset="0" max-vertical-offset="660">
+          <folding>
+            <element signature="e#0#32#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
