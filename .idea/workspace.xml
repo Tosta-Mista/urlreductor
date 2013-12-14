@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/views.py" afterPath="$PROJECT_DIR$/mini_url/views.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/mini_url/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mini_url/list.html" afterPath="$PROJECT_DIR$/templates/mini_url/list.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlreductor/settings.py" afterPath="$PROJECT_DIR$/urlreductor/settings.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -34,7 +36,7 @@
       <file leaf-file-name="settings.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="69" column="18" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1620">
+            <state line="91" column="0" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="1854">
               <folding />
             </state>
           </provider>
@@ -58,10 +60,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="views.py" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
+            <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
               <folding>
                 <element signature="e#24#69#0" expanded="true" />
               </folding>
@@ -70,7 +72,7 @@
         </entry>
       </file>
       <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/mini_url/base.html">
+        <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
             <state line="44" column="33" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-29.333334" vertical-offset="0" max-vertical-offset="2214">
               <folding />
@@ -78,10 +80,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="66" selection-start="638" selection-end="638" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="594">
+            <state line="16" column="14" selection-start="430" selection-end="430" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="612">
               <folding />
             </state>
           </provider>
@@ -139,14 +141,14 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/mini_url/models.py" />
-        <option value="$PROJECT_DIR$/urlreductor/settings.py" />
         <option value="$PROJECT_DIR$/mini_url/forms.py" />
         <option value="$PROJECT_DIR$/urlreductor/urls.py" />
         <option value="$PROJECT_DIR$/mini_url/urls.py" />
         <option value="$PROJECT_DIR$/templates/mini_url/base.html" />
-        <option value="$PROJECT_DIR$/templates/mini_url/list.html" />
         <option value="$PROJECT_DIR$/mini_url/admin.py" />
         <option value="$PROJECT_DIR$/mini_url/views.py" />
+        <option value="$PROJECT_DIR$/urlreductor/settings.py" />
+        <option value="$PROJECT_DIR$/templates/mini_url/list.html" />
       </list>
     </option>
   </component>
@@ -227,6 +229,20 @@
               <option name="myItemId" value="templates" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urlreductor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="urlreductor" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="mini_url" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -276,6 +292,11 @@
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
     <property name="dynamic.classpath" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/templates" />
+    </key>
   </component>
   <component name="RunManager" selected="Django server.urlreductor">
     <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
@@ -547,7 +568,11 @@
       <created>1387053829701</created>
       <updated>1387053829701</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Fix : import models into my views...">
+      <created>1387053971857</created>
+      <updated>1387053971857</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -591,7 +616,8 @@
     <MESSAGE value="Add: new template for the listing." />
     <MESSAGE value="Fix: an error when i call the model.ModelAdmin" />
     <MESSAGE value="Fix: an error during the runervers launch" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: an error during the runervers launch" />
+    <MESSAGE value="Fix : import models into my views..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix : import models into my views..." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -661,23 +687,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mini_url/base.html">
+    <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="33" selection-start="1882" selection-end="1882" vertical-scroll-proportion="-29.333334" vertical-offset="0" max-vertical-offset="2214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="66" selection-start="638" selection-end="638" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="594">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="69" column="18" selection-start="1825" selection-end="1825" vertical-scroll-proportion="0.0" vertical-offset="960" max-vertical-offset="1620">
           <folding />
         </state>
       </provider>
@@ -700,10 +712,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.06304728" vertical-offset="0" max-vertical-offset="571">
+        <state line="2" column="24" selection-start="94" selection-end="94" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
           <folding>
             <element signature="e#24#69#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urlreductor/settings.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="91" column="0" selection-start="2278" selection-end="2278" vertical-scroll-proportion="0.0" vertical-offset="1283" max-vertical-offset="1854">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="14" selection-start="430" selection-end="430" vertical-scroll-proportion="0.5294118" vertical-offset="0" max-vertical-offset="612">
+          <folding />
         </state>
       </provider>
     </entry>
