@@ -4,7 +4,7 @@ from models import myURL
 
 class myURLAdmin(admin.ModelAdmin):
     list_display = ('url', 'username', 'date', 'secret', 'accessNb', 'date')
-    list_filter = ('pseudo', )
+    list_filter = ('username', )
     date_hierarchy = 'date'
     ordering = ('date', )
     search_fields = ('url',)
