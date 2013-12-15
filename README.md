@@ -20,7 +20,7 @@ Run dev server :
 python manage.py runserver
 ```
 
-Connect to the webserver :
+Connect to the webserver :<br />
 http://127.0.0.1:8000/
 
 ## Thanks
