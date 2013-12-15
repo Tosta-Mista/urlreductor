@@ -2,8 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mini_url/redirection.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/views.py" afterPath="$PROJECT_DIR$/mini_url/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -16,7 +14,7 @@
   </component>
   <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
   <component name="CreatePatchCommitExecutor">
-    <option name="PATCH_PATH" value="" />
+    <option name="PATCH_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
@@ -603,7 +601,11 @@
       <created>1387113849626</created>
       <updated>1387113849626</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Fix : errors during the launch">
+      <created>1387113995822</created>
+      <updated>1387113995822</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -654,7 +656,8 @@
     <MESSAGE value="Update: some templates with the new url" />
     <MESSAGE value="Fix : classic url by {% url 'url_nouveau' %}" />
     <MESSAGE value="Fix : classic url by {% url 'new' %}" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix : classic url by {% url 'new' %}" />
+    <MESSAGE value="Fix : errors during the launch" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fix : errors during the launch" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
