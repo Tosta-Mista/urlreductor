@@ -6,7 +6,7 @@
 
 	{% block breadcrumb %}
 		<ol class="breadcrumb">
-			<li><a href="/">Home</a></li>
+			<li><a href="{% url 'url_list' %}">Home</a></li>
 			<li class="active">New URL</a></li>
 		</ol>
 	{% endblock %}
@@ -14,7 +14,7 @@
 	{% block MainContent %}
 		<div class="col-12 col-sm-12 col-lg-12">
 			<h1>New URL</h1>
-            <form method="post" action="">
+            <form method="post" action="{% url 'url_new' %}">
                 {{ form.as_p }}
             </form>
         </div>
@@ -22,7 +22,7 @@
 
 			{% block sidelinks %}
 				<a href="#" class="list-group-item active">What do you need ?</a>
-				<a href="/new" class="list-group-item">Add a new URL</a>
+				<a href="{% url 'url_new' %}" class="list-group-item">Add a new URL</a>
 				<a href="/admin" class="list-group-item">Admin</a>
 			{%endblock%}
 

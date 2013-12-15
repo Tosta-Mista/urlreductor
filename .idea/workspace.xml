@@ -5,6 +5,7 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/base.html" afterPath="$PROJECT_DIR$/templates/base.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mini_url/list.html" afterPath="$PROJECT_DIR$/templates/mini_url/list.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mini_url/new.html" afterPath="$PROJECT_DIR$/templates/mini_url/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/views.py" afterPath="$PROJECT_DIR$/mini_url/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="urlreductor.iws" />
@@ -63,7 +64,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="18" column="28" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+            <state line="21" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="666">
               <folding>
                 <element signature="e#24#69#0" expanded="true" />
               </folding>
@@ -74,25 +75,25 @@
       <file leaf-file-name="new.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mini_url/new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="29" selection-start="653" selection-end="653" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="666">
+            <state line="24" column="40" selection-start="702" selection-end="702" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="base.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="base.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="48" column="37" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.43014705" vertical-offset="630" max-vertical-offset="2214">
+            <state line="49" column="49" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-20.666666" vertical-offset="324" max-vertical-offset="2214">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="list.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="list.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="29" selection-start="560" selection-end="560" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="612">
+            <state line="32" column="38" selection-start="1156" selection-end="1156" vertical-scroll-proportion="1.0847458" vertical-offset="0" max-vertical-offset="792">
               <folding />
             </state>
           </provider>
@@ -151,11 +152,11 @@
         <option value="$PROJECT_DIR$/templates/mini_url/base.html" />
         <option value="$PROJECT_DIR$/mini_url/admin.py" />
         <option value="$PROJECT_DIR$/urlreductor/settings.py" />
-        <option value="$PROJECT_DIR$/mini_url/views.py" />
         <option value="$PROJECT_DIR$/urlreductor/urls.py" />
+        <option value="$PROJECT_DIR$/mini_url/views.py" />
+        <option value="$PROJECT_DIR$/templates/base.html" />
         <option value="$PROJECT_DIR$/templates/mini_url/new.html" />
         <option value="$PROJECT_DIR$/templates/mini_url/list.html" />
-        <option value="$PROJECT_DIR$/templates/base.html" />
       </list>
     </option>
   </component>
@@ -591,7 +592,11 @@
       <created>1387112311187</created>
       <updated>1387112311187</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="Update: some templates with the new url">
+      <created>1387112564003</created>
+      <updated>1387112564003</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -639,7 +644,8 @@
     <MESSAGE value="Fix: Fix some error during the launch of the dev server, well now i need to play doto with R3D2" />
     <MESSAGE value="Add: New form to add a new url." />
     <MESSAGE value="Add: new form, new urls." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add: new form, new urls." />
+    <MESSAGE value="Update: some templates with the new url" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update: some templates with the new url" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -719,6 +725,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
       <provider selected="true" editor-type-id="text-editor">
         <state line="6" column="43" selection-start="191" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
@@ -728,37 +741,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/mini_url/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="28" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+        <state line="21" column="0" selection-start="535" selection-end="535" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="666">
           <folding>
             <element signature="e#24#69#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="38" selection-start="173" selection-end="173" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="324">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="29" selection-start="560" selection-end="560" vertical-scroll-proportion="-14.0" vertical-offset="0" max-vertical-offset="612">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mini_url/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="29" selection-start="653" selection-end="653" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="666">
+        <state line="24" column="40" selection-start="702" selection-end="702" vertical-scroll-proportion="-16.0" vertical-offset="0" max-vertical-offset="666">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="48" column="37" selection-start="2095" selection-end="2095" vertical-scroll-proportion="0.43014705" vertical-offset="630" max-vertical-offset="2214">
+        <state line="49" column="49" selection-start="2167" selection-end="2167" vertical-scroll-proportion="-20.666666" vertical-offset="324" max-vertical-offset="2214">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="32" column="38" selection-start="1156" selection-end="1156" vertical-scroll-proportion="1.0847458" vertical-offset="0" max-vertical-offset="792">
           <folding />
         </state>
       </provider>

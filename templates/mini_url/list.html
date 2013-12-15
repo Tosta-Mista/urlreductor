@@ -13,14 +13,24 @@
 
 	{% block MainContent %}
 		<div class="col-12 col-sm-12 col-lg-12">
-			<h1>URL List</h1>
+			<h1>List of </h1>
+            <ul>
+                {% for mini in minis %}
+                <li> {{ mini.url }} via <a href="http://{{ request.get_host }}{% url 'url_redirection' mini.code %}">{{ request.get_host }}{% url 'url_redirection' mini.code %}</a>
+                {% if mini.pseudo %}par {{ mini.pseudo }}
+                {% endif %}
+                ({{ mini.accessNb }} accès)</li>
+                {% empty %}
+                    <li>Il n'y en a pas actuellement.</li>
+                {% endfor %}
+            </ul>
         </div>
 	{% endblock %}
 
 			{% block sidelinks %}
 				<a href="#" class="list-group-item active">What do you need ?</a>
-				<a href="/new" class="list-group-item">Add a new URL</a>
-				<a href="/admin" class="list-group-item">Admin</a>
+				<a href="{% url 'url_nouveau' %}" class="list-group-item">Add a new URL</a>
+				<a href="{% url 'admin' %}" class="list-group-item">Admin</a>
 			{%endblock%}
 
 
