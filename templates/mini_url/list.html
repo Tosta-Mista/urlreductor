@@ -13,15 +13,15 @@
 
 	{% block MainContent %}
 		<div class="col-12 col-sm-12 col-lg-12">
-			<h1>List of </h1>
+			<h1>List of items</h1>
             <ul>
-                {% for mini in minis %}
-                <li> {{ mini.url }} via <a href="http://{{ request.get_host }}{% url 'url_redirection' mini.code %}">{{ request.get_host }}{% url 'url_redirection' mini.code %}</a>
-                {% if mini.pseudo %}par {{ mini.pseudo }}
+                {% for mini in urls %}
+                <li> {{ mini.url }} via <a href="http://{{ request.get_host }}{% url 'url_redirection' mini.secret %}">{{ request.get_host }}{% url 'url_redirection' mini.secret %}</a>
+                {% if mini.username %}par {{ mini.username }}
                 {% endif %}
                 ({{ mini.accessNb }} accès)</li>
                 {% empty %}
-                    <li>Il n'y en a pas actuellement.</li>
+                    <li>No items for the moment.</li>
                 {% endfor %}
             </ul>
         </div>
