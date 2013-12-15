@@ -20,7 +20,7 @@ def new(request):
     else:
         form = myURLForm()
 
-    return render(request, mini_url/new.html, {'form': form})
+    return render(request, 'mini_url/new.html', {'form': form})
 
 
 

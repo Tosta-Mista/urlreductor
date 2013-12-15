@@ -2,7 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="fda382fd-0c9f-4853-97ad-4edc96dc6451" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/mini_url/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/mini_url/new.html" afterPath="$PROJECT_DIR$/templates/mini_url/new.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/urlreductor/urls.py" afterPath="$PROJECT_DIR$/urlreductor/urls.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/mini_url/views.py" afterPath="$PROJECT_DIR$/mini_url/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -41,10 +42,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="urls.py" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="18" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="198" max-vertical-offset="342">
+            <state line="6" column="38" selection-start="173" selection-end="173" vertical-scroll-proportion="0.12609456" vertical-offset="0" max-vertical-offset="571">
               <folding />
             </state>
           </provider>
@@ -53,7 +54,7 @@
       <file leaf-file-name="urls.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="72" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="252">
+            <state line="6" column="43" selection-start="191" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
               <folding />
             </state>
           </provider>
@@ -62,7 +63,7 @@
       <file leaf-file-name="views.py" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/mini_url/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="27" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+            <state line="18" column="28" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
               <folding>
                 <element signature="e#24#69#0" expanded="true" />
               </folding>
@@ -70,10 +71,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="new.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="new.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/mini_url/new.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="460" selection-end="460" vertical-scroll-proportion="0.52747256" vertical-offset="0" max-vertical-offset="666">
+            <state line="16" column="51" selection-start="465" selection-end="465" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
               <folding />
             </state>
           </provider>
@@ -146,7 +147,6 @@
       <list>
         <option value="$PROJECT_DIR$/mini_url/models.py" />
         <option value="$PROJECT_DIR$/mini_url/forms.py" />
-        <option value="$PROJECT_DIR$/urlreductor/urls.py" />
         <option value="$PROJECT_DIR$/mini_url/urls.py" />
         <option value="$PROJECT_DIR$/templates/mini_url/base.html" />
         <option value="$PROJECT_DIR$/mini_url/admin.py" />
@@ -154,6 +154,7 @@
         <option value="$PROJECT_DIR$/templates/mini_url/list.html" />
         <option value="$PROJECT_DIR$/mini_url/views.py" />
         <option value="$PROJECT_DIR$/templates/mini_url/new.html" />
+        <option value="$PROJECT_DIR$/urlreductor/urls.py" />
       </list>
     </option>
   </component>
@@ -581,29 +582,33 @@
       <created>1387054760772</created>
       <updated>1387054760772</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Add: New form to add a new url.">
+      <created>1387111921124</created>
+      <updated>1387111921124</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="8" y="3" width="1910" height="1040" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2301676" sideWeight="0.6634409" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14946237" sideWeight="0.67112595" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14946237" sideWeight="0.6703911" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15053764" sideWeight="0.67112595" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.15053764" sideWeight="0.6703911" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32887402" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32960895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.21787709" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -627,7 +632,8 @@
     <MESSAGE value="Fix: an error during the runervers launch" />
     <MESSAGE value="Fix : import models into my views..." />
     <MESSAGE value="Fix: Fix some error during the launch of the dev server, well now i need to play doto with R3D2" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fix: Fix some error during the launch of the dev server, well now i need to play doto with R3D2" />
+    <MESSAGE value="Add: New form to add a new url." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add: New form to add a new url." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -693,23 +699,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="72" selection-start="274" selection-end="274" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/base.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="44" column="33" selection-start="1882" selection-end="1882" vertical-scroll-proportion="0.0" vertical-offset="792" max-vertical-offset="2214">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="18" selection-start="323" selection-end="323" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="306">
           <folding />
         </state>
       </provider>
@@ -728,15 +720,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/mini_url/views.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="27" selection-start="122" selection-end="122" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
-          <folding>
-            <element signature="e#24#69#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mini_url/list.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="835" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="612">
@@ -744,9 +727,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/mini_url/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="43" selection-start="191" selection-end="198" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="252">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mini_url/views.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="28" selection-start="492" selection-end="492" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="576">
+          <folding>
+            <element signature="e#24#69#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/templates/mini_url/new.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="460" selection-end="460" vertical-scroll-proportion="0.52747256" vertical-offset="0" max-vertical-offset="666">
+        <state line="16" column="51" selection-start="465" selection-end="465" vertical-scroll-proportion="-10.666667" vertical-offset="0" max-vertical-offset="666">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/urlreductor/urls.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="38" selection-start="173" selection-end="173" vertical-scroll-proportion="0.12609456" vertical-offset="0" max-vertical-offset="571">
           <folding />
         </state>
       </provider>
