@@ -10,7 +10,9 @@ git clone git@github.com:Tosta-Mixta/urlreductor.git
 ```
 
 Sync Database :
+```
 cd urlreductor
+```
 ```
 python manage.py syncdb
 ```
