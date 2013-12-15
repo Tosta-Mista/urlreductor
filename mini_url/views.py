@@ -23,7 +23,7 @@ def new(request):
     return render(request, 'mini_url/new.html', {'form': form})
 
 
-def redirectionI(request, secret):
+def redirection(request, secret):
     """Redirection to the new URL created"""
     mini = get_object_or_404(myURL, secret=secret)
     mini.accessNb += 1
