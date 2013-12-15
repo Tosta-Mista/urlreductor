@@ -12,7 +12,7 @@ class myURL(models.Model):
     date = models.DateTimeField(verbose_name='Added', auto_now_add=True)
 
     def __unicode__(self):
-        return u'[{0}] {1}'.format(self.code, self.url)
+        return u'[{0}] {1}'.format(self.secret, self.url)
 
     def save(self, *args, **kwargs):
         if self.pk is None:
