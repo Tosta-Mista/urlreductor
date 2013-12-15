@@ -52,7 +52,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="14" selection-start="188" selection-end="188" vertical-scroll-proportion="0.39253998" vertical-offset="0" max-vertical-offset="563">
+            <state line="23" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.6944938" vertical-offset="0" max-vertical-offset="563">
               <folding />
             </state>
           </provider>
@@ -627,7 +627,11 @@
       <created>1387120027359</created>
       <updated>1387120027359</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Add: some notes about the app.">
+      <created>1387120057818</created>
+      <updated>1387120057818</updated>
+    </task>
+    <option name="localTasksCounter" value="25" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -790,7 +794,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="14" selection-start="188" selection-end="188" vertical-scroll-proportion="0.39253998" vertical-offset="0" max-vertical-offset="563">
+        <state line="23" column="0" selection-start="298" selection-end="298" vertical-scroll-proportion="0.6944938" vertical-offset="0" max-vertical-offset="563">
           <folding />
         </state>
       </provider>
