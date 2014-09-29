@@ -1,7 +1,7 @@
 urlreductor
 ===========
 
-Simple url reductor writed in django.
+Simple url reductor written in django.
 
 ## Install
 Clone the repo :
