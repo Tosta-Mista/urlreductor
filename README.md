@@ -22,6 +22,3 @@ python manage.py runserver
 
 Connect to the webserver :<br />
 http://127.0.0.1:8000/
-
-## Thanks
-Big thanks for the incredible tutorial about django on www.openclassroom.com website.
